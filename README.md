@@ -41,6 +41,7 @@ VSCode > Right click docker-compose.yml > Compose Up
 <img width="580" height="567" alt="image" src="https://github.com/user-attachments/assets/bdad8b16-63a0-43ea-9eb2-ab2579bbaee7" />
 
 Congratulation! It's up and running!
+
 <img width="322" height="92" alt="image" src="https://github.com/user-attachments/assets/ce6ad0c2-9c80-4107-b2d0-c20f6b3a6c35" />
 
 ## Emulate Auto-Restart

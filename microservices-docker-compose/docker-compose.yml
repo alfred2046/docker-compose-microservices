@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  ms-user-services:
+    image: microservicesuserapi
+    ports:
+      - "8081:8081"
+    # restart: on-failure
+    # restart: always
+    # restart: no
+    restart: unless-stopped
+  ms-product-services:
+    image: microservicesproductapi
+    ports:
+      - "8082:8082"
+    # restart: on-failure
+    # restart: always
+    # restart: no
+    restart: unless-stopped

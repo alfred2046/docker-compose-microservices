@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "microservices-user-api"
+		},
+		{
+			"path": "microservices-product-api"
+		},
+		{
+			"path": "microservices-docker-compose"
+		}
+	],
+	"settings": {
+    	"filewatcher.commands": [
+			{
+				"match": "\\.*",
+				"isAsync": true,
+				"cmd": "echo '${file} folder content Changed'",
+				"event": "onFolderChange"
+			}		
+    	],
+		"logViewer.watch": [
+			{
+				"title": "all",
+				"pattern": "/usr/local/var/workspace-go/**/*.log"
+			}
+			// {
+			// 	"title": "user-api",
+			// 	"pattern": "/usr/local/var/workspace-go/microservices-user-api/*.log"
+			// },
+			// {
+			// 	"title": "product-api",
+			// 	"pattern": "/usr/local/var/workspace-go/microservices-product-api/*.log"
+			// },
+			// {
+			// 	"title": "docker compose",
+			// 	"pattern": "/usr/local/var/workspace-go/microservices-docker-compose/*.log"
+			// }
+    	]
+	}
+}
